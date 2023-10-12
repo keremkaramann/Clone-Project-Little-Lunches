@@ -1,0 +1,841 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Site</title>
+    <link rel="icon" type="image/png" href="fav">
+
+    <!--CSS START-->
+    <link rel="stylesheet" href="assets/vendor/owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendor/owlcarousel/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--CSS END-->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <a id="button"></a>
+    <header>
+        <div class="cs-menudiv">
+            <div class="cs-logo">
+                <div class="cs-logotext">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cs-logoheader">
+                <div class="header-con">
+                    <div class="cs-header-icon">
+                        <a onclick="openNav()" href="#"><img src="./assets/img/Menu.png" alt=""></a>
+                    </div>
+
+                    <div class="head-img">
+                        <a href="./index.html"><img src="./assets/img/Group 179.png" alt=""></a>
+                    </div>
+                </div>
+                <!-- hidden header -->
+                <div class="cs-logotext-2">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook-f fa-lg"></i></a></li>
+                    </ul>
+                </div>
+                <!-- hidden header end -->
+                <div class="cs-navbar">
+                    <ul class="cs-menu-ul">
+                        <li><a href="#howIt">How It Works</a></li>
+                        <li><a href="#aboutUs">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- mobile side bar start -->
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html"><img src="./assets/img/Group 179.png" alt=""></a>
+                    <div class="mt-5">
+                        <div class="d-flex align-items-center">
+                            <img style="width:20px ; height: 20px;" src="./assets/img/fi-rr-home.png" alt="">
+                            <a class="links-scroll" href="#">HOMEPAGE</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img style="width:20px ; height: 20px;" src="./assets/img/fi-rr-e-learning.png" alt="">
+                            <a class="links-scroll" href="#howIt">How It Works</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img style="width:20px ; height: 20px;" src="./assets/img/fi-rr-users.png" alt="">
+                            <a class="links-scroll" href="#aboutUs">About Us</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img style="width:20px ; height: 20px;" src="./assets/img/fi-rr-book-alt.png" alt="">
+                            <a class="links-scroll" href="#">Blog</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img style="width:20px ; height: 20px;" src="./assets/img/question.png" alt="">
+                            <a class="links-scroll" href="#faq">FAQ</a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img style="width:20px ; height: 20px;" src="./assets/img/fi-rr-headset.png" alt="">
+                            <a class="links-scroll" href="#contact">Contact</a>
+                        </div>
+                    </div>
+
+                    <div class="cs-sidenav-logo">
+                        <ul>
+                            <li><a href=""><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-facebook-f fa-lg"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- banner start -->
+        <div class="cs-banner" style="background-image:url(./assets/img/bg1.png)">
+            <div class="cs-banner-container">
+                <div class="cs-banner-content">
+                    <h1>Meals FOR Kids
+                        The Whole Family
+                        Can Enjoy!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolor.</p>
+                    <button type="button" class="btn">Download App!</button>
+                </div>
+            </div>
+        </div>
+        <!-- scroll container start-->
+        <div class="cs-scroll" id="howIt">
+            <div class="scroll-header">
+                <h1>How It <span>Works</span></h1>
+                <p>The complete experience for caregivers preparing meals for the little ones</p>
+            </div>
+            <div class="scroll">
+                <ul class="nav nav-tabs cs-tabs-2 mb-5" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="tab-1" data-toggle="tab" href="#content-1" role="tab"
+                            aria-controls="content-1" aria-selected="true">How It Works</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab-2" data-toggle="tab" href="#content-2" role="tab"
+                            aria-controls="content-2" aria-selected="false">Weekly Meal Plan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab-3" data-toggle="tab" href="#content-3" role="tab"
+                            aria-controls="content-3" aria-selected="false">Grocery Delivery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab-4" data-toggle="tab" href="#content-4" role="tab"
+                            aria-controls="content-4" aria-selected="false">Cook & Enjoy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab-4" data-toggle="tab" href="#content-4" role="tab"
+                            aria-controls="content-4" aria-selected="false">Infotainment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- owl 1 -->
+        <div class="item-pp">
+            <h3>See
+                How It Works</h3>
+            <p>Meals for kids the whole family can enjoy</p>
+        </div>
+        <div class="owl-container ">
+            <div class="slider-1 owl-carousel owl-theme " id="myTabContent">
+                <div class="item " role="tabpanel" aria-labelledby="tab-1" id="content-1">
+                    <div class="item-container">
+                        <div class="item-p">
+                            <h3>See <br>
+                                How It Works</h3>
+                            <p>Meals for kids the whole family can enjoy</p>
+                        </div>
+                        <div>
+                            <img src="./assets/img/ilkvid.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" id="content-2">
+                    <div class="item-container">
+                        <div class="item-p">
+                            <h3>See <br>
+                                How It Works</h3>
+                            <p>Meals for kids the whole family can enjoy</p>
+                        </div>
+                        <div>
+                            <img src="./assets/img/svitlana-BZsbYIHCKRg-unsplash.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" id="content-3">
+                    <div class="item-container">
+                        <div class="item-p">
+                            <h3>See <br>
+                                How It Works</h3>
+                            <p>Meals for kids the whole family can enjoy</p>
+                        </div>
+                        <div>
+                            <img src="./assets/img/jeff-sheldon-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" id="content-4">
+                    <div class="item-container">
+                        <div class="item-p">
+                            <h3>See <br>
+                                How It Works</h3>
+                            <p>Meals for kids the whole family can enjoy</p>
+                        </div>
+                        <div>
+                            <img src="./assets/img/monika-grabkowska-neu4T59mTcY-unsplash.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item" id="content-5">
+                    <div class="item-container">
+                        <div class="item-p">
+                            <h3>See <br>
+                                How It Works</h3>
+                            <p>Meals for kids the whole family can enjoy</p>
+                        </div>
+                        <div>
+                            <img src="./assets/img/hannah-tasker-ZBkH8G4_yyE-unsplash.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- client section -->
+        <div class="cs-client">
+            <div class="item-h1">
+                <h1>Client <span>Satisfaction</span></h1>
+            </div>
+        </div>
+        <!-- owl2 -->
+        <div class="owl-container-2">
+            <div class="slider-2 second owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card-owl ">
+                        <div class="card-p1" style="display:flex;">
+                            <p><img style="height:17px; width:25px;" src="assets/img/fi-rr-quote-right.png" alt="">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.
+                            </p>
+                        </div>
+                        <div class="card-p2">
+                            <p>-Robert D Kostao</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card-owl ">
+                        <div class="card-p1" style="display:flex;">
+                            <p><img style="height:17px; width:25px;" src="assets/img/fi-rr-quote-right.png" alt="">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.
+                            </p>
+                        </div>
+                        <div class="card-p2">
+                            <p>-Robert D Kostao</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item">
+                        <div class="card-owl ">
+                            <div class="card-p1" style="display:flex;">
+                                <p><img style="height:17px; width:25px;" src="assets/img/fi-rr-quote-right.png" alt="">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna
+                                    aliqua.
+                                </p>
+                            </div>
+                            <div class="card-p2">
+                                <p>-Robert D Kostao</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item">
+                        <div class="card-owl ">
+                            <div class="card-p1" style="display:flex;">
+                                <p><img style="height:17px; width:25px;" src="assets/img/fi-rr-quote-right.png" alt="">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna
+                                    aliqua.
+                                </p>
+                            </div>
+                            <div class="card-p2">
+                                <p>-Robert D Kostao</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about us -->
+        <div class="cs-about" id="aboutUs">
+            <div class="cs-about-container">
+                <h1>About <span>Us</span></h1>
+                <p class="cs-about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                    et dolore magna
+                    aliqua.
+                </p>
+            </div>
+        </div>
+        <!-- owl 3 -->
+        <div class="owl-container-3">
+            <div class="slider-3 owl-carousel owl-theme">
+                <div class="item first-card">
+                    <div class="cs-owl-4-card first-card">
+                        <img src="./assets/img/Group 36444.png" alt="">
+                        <div class="p-container">
+                            <h3>Our Platform</h3>
+                            <p>Our platform is built using the
+                                latest app and web technologies available to make your experience as personalized as
+                                possible and to fit your weekly
+                                needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cs-owl-4-card line">
+                        <img src="./assets/img/Group 2918.png" alt="">
+                        <div class="p-container">
+                            <h3>Nutritional Recipes
+                            </h3>
+                            <p>The meal plans are produced
+                                based on Little Lunches’
+                                expansive collection of breakfast, lunch, dinner and snack recipes. The recipes have
+                                been developed
+                                by our team of highly trained
+                                chefs and dietitians and
+                                tested by kids (of course!)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cs-owl-4-card line">
+                        <img src="./assets/img/Group 36445.png" alt="">
+                        <div class="p-container">
+                            <h3>Social Responsibility
+                            </h3>
+                            <p>For every subscriber on
+                                Little Lunches, lunch meals are provided to school children in
+                                need in the Americas.
+                                We are working with various
+                                charity organizations to serve
+                                public schools in multiple cities and rural areas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- get it from -->
+        <div class="cs-get">
+            <cs class="get-container">
+                <div class="cs-header">
+                    <h1>Get It <span>From</span></h1>
+                </div>
+                <div class="cs-img">
+                    <img class="img-fluid" src="./assets/img/iphone.png" alt="">
+                </div>
+
+            </cs>
+        </div>
+        <!-- read blog -->
+        <div class="cs-blog">
+            <div class="cs-blog-container">
+                <h1>Read On The <span>Blog</span></h1>
+            </div>
+        </div>
+        <!-- slider 4 -->
+        <div class="owl-container-4">
+            <div class="slider-4 cs-owl-blog owl-carousel owl-theme">
+                <div class="item">
+                    <div class="cs-card-5">
+                        <img src="./assets/img/3da52d89000b4cc241dd32d8f0a2b65f.png" alt="">
+                        <h5>Cooking</h5>
+                        <h3>How to Cook Steak</h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod temp.
+                            Lorem ipsum dolor sit amet,
+                            consetetur sadi elitr, sed diam nonumy eirmod tempLorem ipsum dolor…</p>
+                        <a href="#">Read More</a><i class="fa-solid fa-chevron-right fa-md"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cs-card-5">
+                        <img src="./assets/img/rebeca-g-sendroiu-7rjcoFTbXJI-unsplash.png" alt="">
+                        <h5>Cooking</h5>
+                        <h3>Our Favorite Pasta Shapes</h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod temp.
+                            Lorem ipsum dolor sit amet,
+                            consetetur sadi elitr, sed diam nonumy eirmod tempLorem ipsum dolor…</p>
+                        <a href="#">Read More</a><i class="fa-solid fa-chevron-right fa-md"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cs-card-5">
+                        <img src="./assets/img/f645091a4bc52cbeace9b66530be3cbf.png" alt="">
+                        <h5>Cooking</h5>
+                        <h3>Air Fryer Oreos</h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod temp.
+                            Lorem ipsum dolor sit amet,
+                            consetetur sadi elitr, sed diam nonumy eirmod tempLorem ipsum dolor…</p>
+                        <a href="#">Read More</a><i class="fa-solid fa-chevron-right fa-md"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="cs-card-5">
+                        <img src="./assets/img/five-best-steak-sauces-6356w.png">
+                        <h5>Cooking</h5>
+                        <h3>The 8 Best Steak Sauce..</h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod temp.
+                            Lorem ipsum dolor sit amet,
+                            consetetur sadi elitr, sed diam nonumy eirmod tempLorem ipsum dolor…</p>
+                        <a href="#">Read More</a><i class="fa-solid fa-chevron-right fa-md"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="see-all">
+            <a href="#" class="see">See All</a>
+        </div>
+        <!-- contact us -->
+        <div class="cs-contact" id="contact">
+            <div class="cs-contact-header">
+                <h1>Contact <span>Us</span></h1>
+            </div>
+        </div>
+        <div class="cs-contact2">
+            <div class="containerss">
+                <div class="container-sol">
+                    <div class="container-img1">
+                        <img src="./assets/img/Group 36460.png" alt="">
+                    </div>
+                    <p>Get <br>
+                        In Touch</p>
+                    <div class="container-2">
+                        <div class=" cs-content-bottom">
+                            <div class="cs-first">
+                                <div>
+                                    <img src="./assets/img/Group 36462.png" alt="">
+                                </div>
+                                <div style="margin-left:20px">
+                                    <span>Little Lunches Corp. 66 West Flagler Street, Suite
+                                        900 Miami,FL
+                                        33130</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cs-container5">
+                            <div class="cs-second numsw">
+                                <div>
+                                    <img src="./assets/img/Group 36461.png" alt="">
+                                </div>
+                                <div style="margin-left:22px">
+                                    <span>00000000000</span>
+                                </div>
+                            </div>
+                            <div class="cs-second numsw">
+                                <div>
+                                    <img src="./assets/img/Group 36463.png" alt="">
+                                </div>
+                                <div style="margin-left:16px">
+                                    <span>info@littlelunches.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-sag">
+                    <div class="blue-container">
+                        <div class="drop-us">
+                            <h1>Drop Us a Line</h1>
+                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor
+                                incididunt ut labore et dolore.
+                            </p>
+                            <div class="dropdown">
+                                <div class="dropdown-select">
+                                    <select name="cars" id="cars">
+                                        <option value="volvo">Subject</option>
+                                        <option value="saab">Subject</option>
+                                        <option value="mercedes">Subject</option>
+                                        <option value="audi">Subject</option>
+                                    </select>
+                                </div>
+                                <input type="text" name="cars" id="cars" placeholder="First Name & Last Name">
+                                <input type="email" name="cars" id="cars" placeholder="Email">
+                                <textarea name="send-massage" id="send-massage" placeholder="Message"></textarea>
+                                <button class="btn">Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sign up -->
+        <section class="section-2">
+            <div class="cs-container text-center">
+                <h1 class="global-headers">Sign Up</h1>
+                <div class="container-p">
+                    <p>Sign up to our newsletter for exclusive content and <br> giveaways!</p>
+                </div>
+                <input type="email" name="cars" id="cars" placeholder="Enter Your Email">
+                <button class="btn">Sign Up</button>
+                <div class="card-body-p1">
+                    <p>By signing up you agree to our <a href="#">Privacy Policy</a>, and <a href="#">Terms and
+                            Conditions</a>.</p>
+                </div>
+            </div>
+        </section>
+        <!-- question section -->
+        <div class="cs-question" id="faq">
+            <div class="cs-question-container">
+                <h1>Frenquently Asked <span>Questions</span></h1>
+                <p>Do you have any questions? Let’s try to answer some…</p>
+            </div>
+            <div class="accordion-cont">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                style="color: black" data-bs-target="#collapseOne" aria-expanded="false"
+                                aria-controls="collapseOne">
+                                Little Lunches related questions:
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.Lorem ipsum dolor sit
+                                amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud
+                                exercitation ullamco.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.Lorem
+                                ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                System related questions:
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.Lorem ipsum dolor sit
+                                amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud
+                                exercitation ullamco.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Support related questions:
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempore quaerat
+                                facilis consequuntur tenetur in. Autem praesentium fugiat illum blanditiis eos totam
+                                corrupti itaque voluptatibus doloremque repellendus! Ea, nobis doloribus.
+                                Corporis est ea debitis sed nobis similique veniam odio quas voluptas, nisi dolor eos
+                                exercitationem ullam provident beatae dolorum doloribus accusantium illum laudantium.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- more questions -->
+        <div class="cs-quest">
+            <h1>Still Have A Questions?</h1>
+            <div class="card-body-p">
+                <p>If you cannot find answer to your question in out FAQ, you can always contact us. We will
+                    answer
+                    to
+                    you shortly!</p>
+            </div>
+        </div>
+    </main>
+    <a id="goTpButton"></a>
+    <div class="clear"></div>
+    <footer>
+        <div class="cs-footer">
+            <div class="cs-footer-container">
+
+                <div class="cs-footer-1">
+                    <h4>Get It From</h4>
+                    <p>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.</p>
+                    <img src="./assets/img/Component 25 – 33.png" alt="">
+                    <img src="./assets/img/Group 36572.png" alt="">
+                </div>
+                <div class="cs-footer-2">
+                    <h4>Social Media</h4>
+                    <p>Follow us on social media to find
+                        out the latest updates on our progress.
+                    </p>
+                    <div class="footer-icons">
+                        <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                    </div>
+                </div>
+                <div class="cs-footer-3">
+                    <h4>Contact</h4>
+                    <div class="cs-second">
+                        <div>
+                            <img src="./assets/img/Group 36470.png" alt="">
+                        </div>
+                        <div style="margin-left:12px">
+                            <p>00000000000</p>
+                        </div>
+                    </div>
+                    <div class="cs-second">
+                        <div>
+                            <img src="./assets/img/Group 36473.png" alt="">
+                        </div>
+                        <div style="margin-left:10px">
+                            <p>info@littlelunches.com</span>
+                        </div>
+                    </div>
+                    <p>Little Lunches Corp. 66 West Flagler
+                        Street, Suite 900 Miami, FL 33130
+                    </p>
+                </div>
+                <!---------- mobile footer -->
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                style="color: black" data-bs-target="#collapseOnes" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                Get It From
+                            </button>
+                        </h2>
+                        <div id="collapseOnes" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="cs-footer-11">
+                                    <p>Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit.</p>
+                                    <a href="#"><img src="./assets/img/Component 25 – 33.png" alt=""></a>
+                                    <a href="#"><img src="./assets/img/Group 36572.png" alt=""></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwos" aria-expanded="false" aria-controls="collapseTwo">
+                                Social Media
+                            </button>
+                        </h2>
+                        <div id="collapseTwos" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="cs-footer-22">
+                                    <p>Follow us on social media to find
+                                        out the latest updates on our progress.
+                                    </p>
+                                    <div class="footer-icons">
+                                        <a href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                                        <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                                        <a href="#"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThrees" aria-expanded="false" aria-controls="collapseThree">
+                                Contact
+                            </button>
+                        </h2>
+                        <div id="collapseThrees" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div class="cs-footer-33">
+                                    <div class="cs-second">
+                                        <div>
+                                            <img src="./assets/img/Group 36470.png" alt="">
+                                        </div>
+                                        <div style="margin-left:18px">
+                                            <p>00000000000</p>
+                                        </div>
+                                    </div>
+                                    <div class="cs-second">
+                                        <div>
+                                            <img src="./assets/img/Group 36473.png" alt="">
+                                        </div>
+                                        <div style="margin-left:10px">
+                                            <p>info@littlelunches.com</span>
+                                        </div>
+                                    </div>
+                                    <p>Little Lunches Corp. 66 West Flagler
+                                        Street, Suite 900 Miami, FL 33130
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grey-cont">
+                <div class="footer-grey"></div>
+            </div>
+
+            <div class="cs-footer-bottom">
+                <div class="cs-footer-copyright">
+                    <i class="fa-solid fa-copyright"></i>
+                    <a href="#">
+                        <p>Copyright</p>
+                    </a>
+
+                </div>
+                <div class="cs-footer-terms">
+                    <a href="#">
+                        <p>Terms & Conditions</p>
+                    </a>
+                    <a href="#">
+                        <p>Privacy Policy</p>
+                    </a>
+
+                </div>
+                <div class="cs-footer-english">
+                    <a href="#">
+                        <p>English</p>
+                    </a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/vendor/jquery/jquery-3.4.1.min.js"></script>
+    <script src="assets/vendor/owlcarousel/js/owl.carousel.min.js"></script>
+    <script src="assets/vendor/owlcarousel/js/owl.carousel2.thumbs.min.js"></script>
+    <script src="assets/vendor/popper/popper.min.js"></script>
+    <script src="assets/vendor/popper/popper.min.js.map"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        $("#selectAll").click(function () {
+            $("input[type=checkbox]").prop("checked", $(this).prop("checked"));
+        });
+
+        $("input[type=checkbox]").click(function () {
+            if (!$(this).prop("checked")) {
+                $("#selectAll").prop("checked", false);
+            }
+        });
+    </script>
+    <script>
+        $('#mobileMenuTrigger').on('click', function () {
+            let thisBtn = $(this),
+                thisMenu = thisBtn.parents('.cs-menu-container').find('.animated');
+
+            thisMenu.toggleClass('active');
+        });
+    </script>
+    <script>
+        $('.sub-menu ul').hide();
+        $(".sub-menu a").click(function () {
+            $(this).parent(".sub-menu").children("ul").slideToggle("100");
+            $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function () {
+                $(this).toggleClass('open');
+            });
+        });
+    </script>
+
+    <script>
+        $(function () {
+            var Accordion = function (el, multiple) {
+                this.el = el || {};
+                this.multiple = multiple || false;
+
+                // Variables privadas
+                var links = this.el.find('.link');
+                // Evento
+                links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
+            }
+
+            Accordion.prototype.dropdown = function (e) {
+                var $el = e.data.el;
+                $this = $(this),
+                    $next = $this.next();
+
+                $next.slideToggle();
+                $this.parent().toggleClass('open');
+
+                if (!e.data.multiple) {
+                    $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+                };
+            }
+
+            var accordion = new Accordion($('#accordion'), false);
+        });
+
+    </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
